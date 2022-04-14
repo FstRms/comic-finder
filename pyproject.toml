@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "comic-finder"
+version = "0.1.0"
+description = "API for finding comics data"
+authors = ["Fausto Ramos <fausto.ramosr92@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.75.1"
+uvicorn = "^0.17.6"
+python-multipart = "^0.0.5"
+pre-commit = "^2.18.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
